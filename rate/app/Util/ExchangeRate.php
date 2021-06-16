@@ -18,11 +18,9 @@ class ExchangeRate
     public function get_rate(string $symbols): array
     {
         $query = "latest?access_key=$this->APP_KEY&symbols=$symbols";
-        try {
-            $response = $this->client->request('GET', $query);
-        } catch (\GuzzleHttp\Exception\GuzzleException $e) {
-            throw $e;
-        }
+
+        $response = $this->client->request('GET', $query);
+
         $body = json_decode($response->getBody()->getContents(), true);
 
         return $body['rates'];
