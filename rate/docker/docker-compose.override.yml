@@ -1,13 +1,7 @@
 version: '3.7'
 
 services:
-  nginx:
+  nginx-rate:
     ports:
-      - "80:80"
-      - "443:443"
-  mariadb:
-    ports:
-      - "3306:3306"
-  adminer:
-    ports:
-      - "8080:8080"
+      - "81:80"
+      - "444:443"
