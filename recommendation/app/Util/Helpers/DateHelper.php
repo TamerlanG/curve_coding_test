@@ -9,7 +9,7 @@ use Carbon\CarbonPeriod;
 
 class DateHelper
 {
-    public static function getPastSevenDays(Carbon $current_date): array {
+    public static function get_past_seven_days(Carbon $current_date): array {
         // Created new copy because the subDays(7) function kept overriding the current_date
         $previous_week_date_object = $current_date->copy()->subDays(7);
         $period = CarbonPeriod::create($previous_week_date_object, $current_date);

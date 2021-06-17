@@ -10,7 +10,7 @@ use Carbon\Carbon;
 class DateHelperTest extends \TestCase
 {
     public function testGetPastSevenDays(){
-        $dates = DateHelper::getPastSevenDays(new Carbon("2020-01-08"));
+        $dates = DateHelper::get_past_seven_days(new Carbon("2020-01-08"));
 
         $appropriate_response = [
             "2020-01-01",
