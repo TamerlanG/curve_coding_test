@@ -107,6 +107,34 @@
       <path value="$PROJECT_DIR$/recommendation/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/recommendation/vendor/mockery/mockery" />
       <path value="$PROJECT_DIR$/recommendation/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/laravel/lumen-framework" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/queue" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/auth" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/translation" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/hashing" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/config" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/http" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/broadcasting" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/log" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/testing" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/collections" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/pagination" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/cache" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/bus" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/filesystem" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/events" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/pipeline" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/session" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/view" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/validation" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/encryption" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/macroable" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/console" />
+      <path value="$PROJECT_DIR$/recommendation/vendor/illuminate/contracts" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />

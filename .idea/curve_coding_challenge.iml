@@ -5,7 +5,6 @@
       <sourceFolder url="file://$MODULE_DIR$/recommendation/app" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/recommendation/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
       <sourceFolder url="file://$MODULE_DIR$/recommendation/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
-      <sourceFolder url="file://$MODULE_DIR$/recommendation/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/hamcrest/hamcrest-php" />
@@ -113,6 +112,34 @@
       <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/theseer/tokenizer" />
       <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/nikic/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/laravel/lumen-framework" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/support" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/queue" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/auth" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/hashing" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/config" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/http" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/broadcasting" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/log" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/testing" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/pagination" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/bus" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/events" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/container" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/database" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/pipeline" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/session" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/view" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/validation" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/encryption" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/macroable" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/console" />
+      <excludeFolder url="file://$MODULE_DIR$/recommendation/vendor/illuminate/contracts" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
