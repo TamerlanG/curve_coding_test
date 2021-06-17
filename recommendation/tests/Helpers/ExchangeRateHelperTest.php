@@ -34,7 +34,29 @@ class ExchangeRateHelperTest extends \TestCase
             "KZT" => 521.3355,
         ];
 
-        $response = ExchangeRateHelper::calculateAverageRates($payload);
+        $response = ExchangeRateHelper::calculate_average_rates($payload);
+
+        Self::assertEquals($appropriate_response, $response);
+    }
+
+
+    public function testCalculateRecommendation(){
+        $current_rate = [
+            "EUR" => "1.23",
+            "USD" => "3.4"
+        ];
+
+        $average = [
+            "EUR" => "1.23",
+            "USD" => "3.50"
+        ];
+
+        $appropriate_response = [
+            "EUR" => "Recommended",
+            "USD" => "Not Recommended"
+        ];
+
+        $response = ExchangeRateHelper::calculate_recommendation($current_rate, $average);
 
         Self::assertEquals($appropriate_response, $response);
     }

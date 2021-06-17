@@ -20,23 +20,14 @@ class ExchangeRate
 
     public function get_recommendation(string $symbols){
         $current_rate = $this->get_rate($symbols);
-        $last_seven_days = DateHelper::getPastSevenDays(Carbon::now());
+        $last_seven_days = DateHelper::get_past_seven_days(Carbon::now());
         $last_seven_rates = $this->get_historic_rates($symbols, $last_seven_days);
-        $average = ExchangeRateHelper::calculateAverageRates($last_seven_rates);
+        $average = ExchangeRateHelper::calculate_average_rates($last_seven_rates);
+        $recommendation = ExchangeRateHelper::calculate_recommendation($current_rate, $average);
 
-        foreach ($average as $currency => $average_rate){
-            if($current_rate[$currency] >= $average_rate){
-                $average[$currency] = "Recommended";
-                continue;
-            }
-
-            $average[$currency] = "Not Recommended";
-        }
-
-        return $average;
+        return $recommendation;
     }
 
-    // Due to free account the base is automatically GBP
     private function get_rate(string $symbols): array
     {
         $query = "latest?access_key=$this->APP_KEY&symbols=$symbols";
@@ -48,7 +39,6 @@ class ExchangeRate
         return $body['rates'];
     }
 
-    // Due to free account the base is automatically EURO
     private function get_historic_rates(string $symbols, array $dates){
         $data = [];
         foreach ($dates as $date){
